@@ -1,9 +1,9 @@
 {
 
-  "host": "0.0.0.0",
+  "host": "::",
   "port": 7777,
 
-  "keyLength": 10,
+  "keyLength": 4,
 
   "maxLength": 400000,
 
@@ -33,8 +33,8 @@
   },
 
   "storage": {
-    "type": "postgres",
-    "expire": 2592000
+    "type": "file",
+    "path": "/opt/haste/data"
   },
 
   "documents": {
